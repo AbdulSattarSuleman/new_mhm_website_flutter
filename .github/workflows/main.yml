@@ -23,6 +23,7 @@ jobs:
           flutter-version: '2.10.3'
       - run: flutter pub get
       - run: flutter build apk --debug --split-per-abi
+      - run: flutter build web --release
       - name: Push to Release
         uses: ncipollo/release-action@v1
         with:

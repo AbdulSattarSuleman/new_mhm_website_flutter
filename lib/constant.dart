@@ -39,6 +39,11 @@ TextStyle kPrayer = TextStyle(
   fontSize: 18.4,
   fontWeight: FontWeight.bold,
 );
+TextStyle kSalat = TextStyle(
+  color: Colors.black,
+  fontSize: 16.4,
+  letterSpacing: 2,
+);
 
 // About Text Info
 

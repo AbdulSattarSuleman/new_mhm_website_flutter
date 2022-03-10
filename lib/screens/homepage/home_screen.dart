@@ -5,7 +5,7 @@ import 'package:new_mhm_website/screens/prayerpage/prayer_time_screen.dart';
 import 'components/first_section.dart';
 import 'components/second_section.dart';
 import 'components/student_count_screen.dart';
-import 'components/video_section.dart';
+import 'components/info_section.dart';
 import 'components/youtube_video.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
             //Second Section
             SecondSection(),
             // Video Section
-            VideoSection(),
+            InfoText(),
             //Youtube Video
             YoutubeVideo(),
 

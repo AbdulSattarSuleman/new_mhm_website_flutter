@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:new_mhm_website/constant.dart';
 import 'package:sizer/sizer.dart';
 
-class VideoSection extends StatefulWidget {
-  const VideoSection({Key? key}) : super(key: key);
+class InfoText extends StatefulWidget {
+  const InfoText({Key? key}) : super(key: key);
 
   @override
-  _VideoSectionState createState() => _VideoSectionState();
+  _InfoTextState createState() => _InfoTextState();
 }
 
-class _VideoSectionState extends State<VideoSection> {
+class _InfoTextState extends State<InfoText> {
   // VideoPlayerController? _controller;
 
   @override
